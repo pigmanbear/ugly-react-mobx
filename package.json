@@ -1,0 +1,160 @@
+{
+  "name": "wealthsource",
+  "version": "1.0.0",
+  "description": "Application description.",
+  "private": true,
+  "mod-project-name": "WealthSource Advisors Portal",
+  "scripts": {
+    "start": "meteor --settings settings-development.json",
+    "debug": "meteor debug --settings settings-development.json",
+    "test": "meteor test --driver-package practicalmeteor:mocha --port 5000",
+    "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
+    "chimp-test": "chimp --ddp=http://localhost:3000 --mocha --path=tests",
+    "staging": "meteor deploy staging.meteor.com --settings settings-development.json",
+    "production": "meteor deploy production.meteor.com --settings settings-production.json",
+    "deploy": "DEPLOY_HOSTNAME=us-east-1.galaxy-deploy.meteor.com meteor deploy wealthsource.meteorapp.com --settings production.json",
+    "storybook": "cd imports; start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-root-slash-import": "^1.1.0",
+    "chimp": "^0.39.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-meteor": "^3.6.0",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-watch": "^2.1.14",
+    "faker": "^3.1.0",
+    "jsx-control-statements": "^3.1.4",
+    "storybook-addon-material-ui": "^0.7.3"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "meteor",
+      "react"
+    ],
+    "extends": [
+      "airbnb/base",
+      "plugin:meteor/guide",
+      "plugin:react/recommended"
+    ],
+    "globals": {
+      "server": false,
+      "browser": false,
+      "expect": false
+    },
+    "rules": {
+      "import/no-unresolved": 0,
+      "no-underscore-dangle": [
+        "error",
+        {
+          "allow": [
+            "_id",
+            "_ensureIndex",
+            "_verifyEmailToken",
+            "_resetPasswordToken",
+            "_name"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "@personare/react-freshdesk-widget": "^0.2.2",
+    "adm-zip": "^0.4.7",
+    "animo-animate": "^1.0.7",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-runtime": "^6.18.0",
+    "babyparse": "^0.4.6",
+    "bcrypt": "^0.8.7",
+    "bootstrap": "^3.3.7",
+    "boron": "^0.2.3",
+    "chart.js": "^2.3.0",
+    "classnames": "^2.2.5",
+    "dropzone": "^4.3.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-lodash-fp": "^2.1.1",
+    "faker": "^3.1.0",
+    "fuzzy": "^0.1.3",
+    "fuzzysearch": "^1.0.3",
+    "griddle-react": "^0.6.1",
+    "immutability-helper": "^2.0.0",
+    "jquery": "^2.2.4",
+    "jquery-storage-api": "^1.9.2",
+    "jquery-validation": "^1.15.1",
+    "jszip": "~2.6.1",
+    "lodash": "^4.16.4",
+    "material-design-icons": "^3.0.1",
+    "material-ui": "^0.16.1",
+    "material-ui-table-list": "^2.0.0",
+    "meteor-node-stubs": "^0.2.3",
+    "mobx": "^2.6.0",
+    "mobx-react": "^3.5.8",
+    "mobx-react-devtools": "^4.2.9",
+    "mobx-react-form": "^1.13.13",
+    "moment": "^2.15.0",
+    "mui-data-table": "^0.1.5",
+    "normalize-css": "^2.3.1",
+    "numeral": "^1.5.3",
+    "pubsub-js": "^1.5.3",
+    "ramda": "^0.22.1",
+    "rc-pagination": "^1.5.5",
+    "react": "^15.4.1",
+    "react-addons-css-transition-group": "^15.3.1",
+    "react-addons-pure-render-mixin": "^15.2.1",
+    "react-autosuggest": "^6.0.4",
+    "react-bootstrap": "^0.30.2",
+    "react-burger-menu": "^1.10.4",
+    "react-chartjs": "^0.8.0",
+    "react-chartjs-2": "^1.5.0",
+    "react-dom": "^15.3.2",
+    "react-dropzone-component": "^1.2.0",
+    "react-event-listener": "^0.4.0",
+    "react-fuzzy": "^0.3.3",
+    "react-fuzzy-filter": "^2.3.0",
+    "react-icons": "^2.2.1",
+    "react-komposer": "^1.13.1",
+    "react-modal": "^1.4.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-bootstrap": "^0.23.1",
+    "react-router-breadcrumbs": "^1.2.0",
+    "react-scroll": "^1.4.4",
+    "react-sparklines": "^1.6.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-toggle": "^2.1.1",
+    "rebass": "^0.3.3",
+    "recharts": "^0.15.1",
+    "recompose": "^0.20.2",
+    "redux": "^3.6.0",
+    "redux-immutable-state-invariant": "^1.2.3",
+    "reflexbox": "^2.2.2",
+    "screenfull": "^3.0.2",
+    "simpl-schema": "0.0.3",
+    "superagent": "^2.1.0",
+    "typescript": "^2.0.7",
+    "typings": "^1.3.2",
+    "underscore": "^1.8.3",
+    "validatorjs": "^3.8.0",
+    "victory": "^0.13.0",
+    "xlsx": "^0.8.0"
+  },
+  "engines": {
+    "node": "4.4.7"
+  }
+}

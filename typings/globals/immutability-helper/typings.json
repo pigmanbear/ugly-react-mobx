@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/58b1706b11c3c5ae08fe22a0534a5f2f1215423e/immutability-helper/immutability-helper.d.ts",
+    "raw": "registry:dt/immutability-helper#2.0.0+20160417153750",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/58b1706b11c3c5ae08fe22a0534a5f2f1215423e/immutability-helper/immutability-helper.d.ts"
+  }
+}

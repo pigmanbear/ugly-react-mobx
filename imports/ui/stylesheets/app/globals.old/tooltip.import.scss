@@ -1,0 +1,37 @@
+// tooltip
+// Color list
+$color-navy-blue:#34495e;
+$color-violet:#9b59b6;
+$color-blue:#3498db;
+$color-green:#62cb31;
+$color-yellow:#ffb606;
+$color-orange:#e67e22;
+$color-red:#e74c3c;
+$color-red-deep:#c0392b;
+
+// Additional colors
+$color-text: #6a6c6f;
+$color-bright: #f7f9fa;
+$color-background: #f1f3f6;
+$color-background-boxed: lighten($color-background, 3%);
+$border-color: #e4e5e7;
+
+// Additional variables
+$menu-width: 180px;
+$main-transition: all 0.1s ease-out 0s;
+.tooltip-inner {
+  background-color: $color-navy-blue;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: $color-navy-blue;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: $color-navy-blue;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: $color-navy-blue;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: $color-navy-blue;
+}

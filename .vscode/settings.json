@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+        "jshint.options": {
+           "esversion" : 6
+        }        
+,
+"typescript.check.workspaceVersion": false
+}

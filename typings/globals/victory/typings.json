@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/97e82ce40e98b78373a2495022bb375118e79d59/victory/victory.d.ts",
+    "raw": "registry:dt/victory#0.9.0+20160720063510",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/97e82ce40e98b78373a2495022bb375118e79d59/victory/victory.d.ts"
+  }
+}

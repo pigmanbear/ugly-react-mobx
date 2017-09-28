@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/29db5e426cb068704694d53505f17da22e0d8f8f/rebass/rebass.d.ts",
+    "raw": "registry:dt/rebass#0.2.5+20160412150352",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/29db5e426cb068704694d53505f17da22e0d8f8f/rebass/rebass.d.ts"
+  }
+}

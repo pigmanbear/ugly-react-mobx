@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/a11d013885ea072e6dba017ec5181eaf1ee152db/react-modal/react-modal.d.ts",
+    "raw": "registry:dt/react-modal#1.3.0+20161010105906",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/a11d013885ea072e6dba017ec5181eaf1ee152db/react-modal/react-modal.d.ts"
+  }
+}

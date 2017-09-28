@@ -1,0 +1,89 @@
+// Color list
+$color-navy-blue:#34495e;
+$color-violet:#9b59b6;
+$color-blue:#3498db;
+$color-green:#62cb31;
+$color-yellow:#ffb606;
+$color-orange:#e67e22;
+$color-red:#e74c3c;
+$color-red-deep:#c0392b;
+
+// Additional colors
+$color-text: #6a6c6f;
+$color-bright: #f7f9fa;
+$color-background: #f1f3f6;
+$color-background-boxed: lighten($color-background, 3%);
+$border-color: #e4e5e7;
+
+// Additional variables
+$menu-width: 180px;
+$main-transition: all 0.1s ease-out 0s;
+body.modal-open {
+  padding-right: 0 !important;
+  position: absolute;
+}
+
+.h-modal-icon {
+  font-size: 66px;
+}
+.inmodal .color-line {
+  border-radius: 4px 4px 0 0;
+}
+.modal-content {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.modal-backdrop.in {
+  opacity: 0.4;
+}
+.modal-backdrop {
+  position: fixed;
+  bottom: 0;
+}
+.modal-dialog {
+  margin-top: 80px;
+}
+.modal-title {
+  font-size: 30px;
+  font-weight: 300;
+}
+.modal-header {
+  padding: 40px 30px;
+  background: $color-bright;
+}
+.modal-body {
+  padding: 20px 30px;
+}
+.modal-header small {
+  color: lighten($color-text, 20%);
+}
+.modal-footer {
+  background: $color-bright;
+}
+
+.hmodal-info .color-line {
+  background: $color-blue;
+}
+.hmodal-warning .color-line {
+  background: $color-yellow;
+}
+.hmodal-success .color-line {
+  background: $color-green;
+}
+.hmodal-danger .color-line {
+  background: $color-red-deep;
+}
+
+.hmodal-info h4.modal-title {
+  color: $color-blue;
+}
+.hmodal-warning h4.modal-title {
+  color: $color-yellow;
+}
+.hmodal-success h4.modal-title {
+  color: $color-green;
+}
+.hmodal-danger h4.modal-title {
+  color: $color-red-deep;
+}

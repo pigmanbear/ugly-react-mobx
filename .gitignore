@@ -1,0 +1,12 @@
+.DS_Store
+settings-development.json
+settings-production.json
+npm-debug.log
+node_modules
+.idea
+*Untitled*
+.vscode/chrome/*
+run.bat
+production.json
+.meteor
+

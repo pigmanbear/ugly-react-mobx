@@ -1,0 +1,58 @@
+// Import Google font
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+// Color list
+$color-navy-blue:#34495e;
+$color-violet:#9b59b6;
+$color-blue:#3498db;
+$color-green:#62cb31;
+$color-yellow:#ffb606;
+$color-orange:#e67e22;
+$color-red:#e74c3c;
+$color-red-deep:#c0392b;
+
+// Additional colors
+$color-text: #6a6c6f;
+$color-bright: #f7f9fa;
+$color-background: #f1f3f6;
+$color-background-boxed: lighten($color-background, 3%);
+$border-color: #e4e5e7;
+
+// Additional variables
+$menu-width: 180px;
+$main-transition: all 0.1s ease-out 0s;
+
+
+// Import all styles
+@import "globals/margins.import";
+@import "globals/alerts.import";
+@import "globals/modal.import";
+@import "globals/progress_bar.import";
+@import "globals/login.import";
+@import "globals/timeline.import";
+@import "globals/contact.import";
+@import "globals/calendar.import";
+@import "globals/text_editor.import";
+@import "globals/grid.import";
+@import "globals/dropdown.import";
+@import "globals/chat.import";
+@import "globals/buttons.import";
+@import "globals/fonts.import";
+@import "globals/icheck.import";
+@import "globals/layout.import";
+@import "globals/lists.import";
+@import "globals/panels.import";
+@import "globals/tabs.import";
+@import "globals/tooltip.import";
+@import "globals/various.import";
+@import "globals/projects.import";
+@import "globals/social_board.import";
+@import "globals/nestable_list.import";
+@import "globals/tour.import";
+@import "globals/blog.import";
+@import "globals/forum.import";
+@import "globals/mailbox.import";
+@import "globals/loader.import";
+
+// Styles for landing page
+@import "globals/landing.import";
